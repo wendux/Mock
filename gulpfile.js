@@ -9,18 +9,18 @@ var istanbul = require('gulp-istanbul')
 var mocha = require('gulp-mocha')
 var coveralls = require('gulp-coveralls')
 
-// 
+//
 gulp.task('hello', function() {
     console.log((function() {
         /*
-___  ___              _        _      
-|  \/  |             | |      (_)     
-| .  . |  ___    ___ | | __    _  ___ 
+___  ___              _        _
+|  \/  |             | |      (_)
+| .  . |  ___    ___ | | __    _  ___
 | |\/| | / _ \  / __|| |/ /   | |/ __|
 | |  | || (_) || (__ |   <  _ | |\__ \
 \_|  |_/ \___/  \___||_|\_\(_)| ||___/
-                             _/ |     
-                            |__/    
+                             _/ |
+                            |__/
         */
     }).toString().split('\n').slice(2, -2).join('\n') + '\n')
 })
@@ -45,28 +45,28 @@ gulp.task('connect', function() {
 
 // https://github.com/spenceralger/gulp-jshint
 gulp.task('jshint', function() {
-    var globs = [
-        'src/**/*.js', 'test/test.*.js', 'gulpfile.js', '!**/regexp/parser.js'
-    ]
-    return gulp.src(globs)
-        .pipe(jshint('.jshintrc'))
-        .pipe(jshint.reporter('jshint-stylish'))
+    // var globs = [
+    //     'src/**/*.js', 'test/test.*.js', 'gulpfile.js', '!**/regexp/parser.js'
+    // ]
+    // return gulp.src(globs)
+    //     .pipe(jshint('.jshintrc'))
+    //     .pipe(jshint.reporter('jshint-stylish'))
 })
 
 // https://webpack.github.io/docs/usage-with-gulp.html
 gulp.task("webpack", function( /*callback*/ ) {
-    webpack({
-        entry: './src/mock.js',
-        output: {
-            path: './dist',
-            filename: 'mock.js',
-            library: 'Mock',
-            libraryTarget: 'umd'
-        }
-    }, function(err /*, stats*/ ) {
-        // console.log(err, stats)
-        if (err) throw err
-    })
+    // webpack({
+    //     entry: './src/mock.js',
+    //     output: {
+    //         path: './dist',
+    //         filename: 'mock.js',
+    //         library: 'Mock',
+    //         libraryTarget: 'umd'
+    //     }
+    // }, function(err /*, stats*/ ) {
+    //     // console.log(err, stats)
+    //     if (err) throw err
+    // })
     webpack({
         entry: './src/mock.js',
         devtool: 'source-map',
@@ -152,7 +152,7 @@ gulp.task('coveralls', ['istanbul'], function() {
         .pipe(coveralls())
 })
 
-// 
+//
 gulp.task('publish', function() {
     var child_process = require('child_process')
     child_process.exec('ls', function(error, stdout, stderr) {

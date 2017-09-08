@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* global require, module, window */
 	var Handler = __webpack_require__(1)
@@ -122,9 +122,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Mock
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* 
 	    ## Handler
@@ -667,9 +667,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Handler
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Constant
@@ -705,9 +705,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // RE_KEY: /^key$/
 	}
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Utilities
@@ -836,9 +836,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Util
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 		## Parser
@@ -912,9 +912,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 	}
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Mock.Random
@@ -941,9 +941,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Random
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Basics
@@ -1072,9 +1072,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Date
@@ -1218,9 +1218,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* global document  */
 	/*
@@ -1506,9 +1506,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)(module)))
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = function(module) {
 		if(!module.webpackPolyfill) {
@@ -1522,9 +1522,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Color
@@ -1664,9 +1664,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Color Convert
@@ -1846,9 +1846,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 	}
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Color 字典数据
@@ -1927,9 +1927,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Text
@@ -2053,9 +2053,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 14 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Helpers
@@ -2174,9 +2174,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 	}
 
-/***/ },
+/***/ }),
 /* 15 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Name
@@ -2266,9 +2266,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 	}
 
-/***/ },
+/***/ }),
 /* 16 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Web
@@ -2347,9 +2347,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	}
 
-/***/ },
+/***/ }),
 /* 17 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Address
@@ -2399,9 +2399,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // state: function() {},
 	}
 
-/***/ },
+/***/ }),
 /* 18 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 	    ## Address 字典数据
@@ -6472,9 +6472,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = DICT_FIXED
 
-/***/ },
+/***/ }),
 /* 19 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## Miscellaneous
@@ -6582,9 +6582,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 	}
 
-/***/ },
+/***/ }),
 /* 20 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var Parser = __webpack_require__(21)
 	var Handler = __webpack_require__(22)
@@ -6593,9 +6593,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		Handler: Handler
 	}
 
-/***/ },
+/***/ }),
 /* 21 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// https://github.com/nuysoft/regexp
 	// forked from https://github.com/ForbesLindesay/regexp
@@ -7168,9 +7168,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = parser
 
-/***/ },
+/***/ }),
 /* 22 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## RegExp Handler
@@ -7565,15 +7565,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = Handler
 
-/***/ },
+/***/ }),
 /* 23 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(24)
 
-/***/ },
+/***/ }),
 /* 24 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## toJSONSchema
@@ -7624,25 +7624,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = toJSONSchema
 
 
-/***/ },
+/***/ }),
 /* 25 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(26)
 
-/***/ },
+/***/ }),
 /* 26 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 	    ## valid(template, data)
 
 	    校验真实数据 data 是否与数据模板 template 匹配。
-	    
+
 	    实现思路：
 	    1. 解析规则。
 	        先把数据模板 template 解析为更方便机器解析的 JSON-Schame
-	        name               属性名 
+	        name               属性名
 	        type               属性值类型
 	        template           属性值模板
 	        properties         对象属性数组
@@ -7651,7 +7651,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    2. 递归验证规则。
 	        然后用 JSON-Schema 校验真实数据，校验项包括属性名、值类型、值、值生成规则。
 
-	    提示信息 
+	    提示信息
 	    https://github.com/fge/json-schema-validator/blob/master/src/main/resources/com/github/fge/jsonschema/validator/validation.properties
 	    [JSON-Schama validator](http://json-schema-validator.herokuapp.com/)
 	    [Regexp Demo](http://demos.forbeslindesay.co.uk/regexp/)
@@ -7689,8 +7689,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    +step
 	                    整数部分
 	                    小数部分
-	                boolean 
-	                string  
+	                boolean
+	                string
 	                    min-max
 	                    count
 	    ## properties
@@ -7707,7 +7707,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            无生成规则：检测全部的元素个数，继续递归
 	*/
 	var Diff = {
-	    diff: function diff(schema, data, name /* Internal Use Only */ ) {
+	    diff: function diff(schema, data, name /* Internal Use Only */) {
 	        var result = []
 
 	        // 先检测名称 name 和类型 type，如果匹配，才有必要继续检测
@@ -7723,27 +7723,71 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return result
 	    },
 	    /* jshint unused:false */
-	    name: function(schema, data, name, result) {
+	    name: function (schema, data, name, result) {
 	        var length = result.length
 
 	        Assert.equal('name', schema.path, name + '', schema.name + '', result)
 
 	        return result.length === length
 	    },
-	    type: function(schema, data, name, result) {
+
+	    test: function (str, arr) {
+	        return arr.some((e, index) => {
+	            return str.trim().indexOf("@" + e + "(") === 0
+	        })
+	    },
+
+	    adjustType: function (schema, data) {
+	        if (this.test(schema.template, ["int", "integer", "float", "natural", "increment", 'timeStamp'])) {
+	            console.log(schema.name, "number", data)
+	            return schema.type = "number"
+	        } else if (this.test(schema.template, ["bool", "boolean"])) {
+	            return schema.type = "boolean"
+	        } else if (this.test(schema.template, ["range"])) {
+	            return schema.type = "arry"
+	        }
+	        // console.log(schema.template)
+	        // if(test(schema.template,["string","character","date", "time","datetime","now","img","dataImage",
+	        //     "color","hex","rgb","rgba","hsl",
+	        //     "cname","first","last","name","cfirst","clast",
+	        //     "region","province","city","county","zip",
+	        //     "url","domain","protocol",
+	        //     ])){
+	        //     console.log(schema.name,"string",data)
+	        //     return  schema.type="string"
+	        // }
+	        // if()
+	    },
+
+	    type: function (schema, data, name, result) {
 	        var length = result.length
+	        var needRecover = false;
+	        var needRecoverArryType=false;
 
 	        switch (schema.type) {
 	            case 'string':
 	                // 跳过含有『占位符』的属性值，因为『占位符』返回值的类型可能和模板不一致，例如 '@int' 会返回一个整形值
-	                if (schema.template.match(Constant.RE_PLACEHOLDER)) return true
+	                if (schema.template.match(Constant.RE_PLACEHOLDER)) {
+	                    this.adjustType(schema);
+	                    needRecover=true;
+	                    //return true
+	                }
 	                break
 	            case 'array':
 	                if (schema.rule.parameters) {
 	                    // name|count: array
 	                    if (schema.rule.min !== undefined && schema.rule.max === undefined) {
 	                        // 跳过 name|1: array，因为最终值的类型（很可能）不是数组，也不一定与 `array` 中的类型一致
-	                        if (schema.rule.count === 1) return true
+	                        //if (schema.rule.count === 1) return true
+	                        //不跳过数组类型
+	                        if (schema.rule.count === 1) {
+	                            if(schema.template.length) {
+	                                schema.type = Util.type(schema.template[0])
+	                                needRecoverArryType = true
+	                            }else {
+	                                return true;
+	                            }
+	                        }
 	                    }
 	                    // 跳过 name|+inc: array
 	                    if (schema.rule.parameters[2]) return true
@@ -7756,9 +7800,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        Assert.equal('type', schema.path, Util.type(data), schema.type, result)
 
+	        if(needRecover) {
+	            schema.type="string";
+	        }
+	        if(needRecoverArryType){
+	            schema.type="array";
+	            if(result.length==length) {
+	                Assert.outOfRange('range', schema.path, data, "[" + schema.template + "]", result)
+	            }
+	        }
 	        return result.length === length
 	    },
-	    value: function(schema, data, name, result) {
+	    value: function (schema, data, name, result) {
 	        var length = result.length
 
 	        var rule = schema.rule
@@ -7791,7 +7844,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                // |min-max
 	                if (rule.min !== undefined && rule.max !== undefined) {
 	                    Assert.greaterThanOrEqualTo('value', schema.path, parts[0], Math.min(rule.min, rule.max), result)
-	                        // , 'numeric instance is lower than the required minimum (minimum: {expected}, found: {actual})')
+	                    // , 'numeric instance is lower than the required minimum (minimum: {expected}, found: {actual})')
 	                    Assert.lessThanOrEqualTo('value', schema.path, parts[0], Math.max(rule.min, rule.max), result)
 	                }
 	                // |count
@@ -7852,7 +7905,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        return result.length === length
 	    },
-	    properties: function(schema, data, name, result) {
+	    properties: function (schema, data, name, result) {
 	        var length = result.length
 
 	        var rule = schema.rule
@@ -7882,9 +7935,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	            result.push.apply(
 	                result,
 	                this.diff(
-	                    function() {
+	                    function () {
 	                        var property
-	                        Util.each(schema.properties, function(item /*, index*/ ) {
+	                        Util.each(schema.properties, function (item /*, index*/) {
 	                            if (item.name === keys[i]) property = item
 	                        })
 	                        return property || schema.properties[i]
@@ -7897,7 +7950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        return result.length === length
 	    },
-	    items: function(schema, data, name, result) {
+	    items: function (schema, data, name, result) {
 	        var length = result.length
 
 	        if (!schema.items) return
@@ -7945,9 +7998,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	/*
 	    完善、友好的提示信息
-	    
+
 	    Equal, not equal to, greater than, less than, greater than or equal to, less than or equal to
-	    路径 验证类型 描述 
+	    路径 验证类型 描述
 
 	    Expect path.name is less than or equal to expected, but path.name is actual.
 
@@ -7956,9 +8009,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	*/
 	var Assert = {
-	    message: function(item) {
+	    message: function (item) {
 	        return (item.message ||
-	                '[{utype}] Expect {path}\'{ltype} {action} {expected}, but is {actual}')
+	            '[{utype}] Expect {path}\'s {ltype} {action} {expected}, but is {actual}')
 	            .replace('{utype}', item.type.toUpperCase())
 	            .replace('{ltype}', item.type.toLowerCase())
 	            .replace('{path}', Util.isArray(item.path) && item.path.join('.') || item.path)
@@ -7966,7 +8019,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            .replace('{expected}', item.expected)
 	            .replace('{actual}', item.actual)
 	    },
-	    equal: function(type, path, actual, expected, result, message) {
+	    equal: function (type, path, actual, expected, result, message) {
 	        if (actual === expected) return true
 	        switch (type) {
 	            case 'type':
@@ -7988,7 +8041,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return false
 	    },
 	    // actual matches expected
-	    match: function(type, path, actual, expected, result, message) {
+	    match: function (type, path, actual, expected, result, message) {
 	        if (expected.test(actual)) return true
 
 	        var item = {
@@ -8003,7 +8056,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        result.push(item)
 	        return false
 	    },
-	    notEqual: function(type, path, actual, expected, result, message) {
+	    notEqual: function (type, path, actual, expected, result, message) {
 	        if (actual !== expected) return true
 	        var item = {
 	            path: path,
@@ -8017,7 +8070,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        result.push(item)
 	        return false
 	    },
-	    greaterThan: function(type, path, actual, expected, result, message) {
+	    greaterThan: function (type, path, actual, expected, result, message) {
 	        if (actual > expected) return true
 	        var item = {
 	            path: path,
@@ -8031,7 +8084,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        result.push(item)
 	        return false
 	    },
-	    lessThan: function(type, path, actual, expected, result, message) {
+	    lessThan: function (type, path, actual, expected, result, message) {
 	        if (actual < expected) return true
 	        var item = {
 	            path: path,
@@ -8045,7 +8098,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        result.push(item)
 	        return false
 	    },
-	    greaterThanOrEqualTo: function(type, path, actual, expected, result, message) {
+	    greaterThanOrEqualTo: function (type, path, actual, expected, result, message) {
 	        if (actual >= expected) return true
 	        var item = {
 	            path: path,
@@ -8059,7 +8112,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        result.push(item)
 	        return false
 	    },
-	    lessThanOrEqualTo: function(type, path, actual, expected, result, message) {
+	    lessThanOrEqualTo: function (type, path, actual, expected, result, message) {
 	        if (actual <= expected) return true
 	        var item = {
 	            path: path,
@@ -8067,6 +8120,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	            actual: actual,
 	            expected: expected,
 	            action: 'is less than or equal to',
+	            message: message
+	        }
+	        item.message = Assert.message(item)
+	        result.push(item)
+	        return false
+	    },
+	    outOfRange:function (type, path, actual, expected, result, message){
+	        if(expected.indexOf(actual)!==-1) return true;
+	        var item = {
+	            path: path,
+	            type: type,
+	            actual: actual,
+	            expected: expected,
+	            action: 'should be one of',
 	            message: message
 	        }
 	        item.message = Assert.message(item)
@@ -8080,15 +8147,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = valid
 
-/***/ },
+
+/***/ }),
 /* 27 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(28)
 
-/***/ },
+/***/ }),
 /* 28 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* global window, document, location, Event, setTimeout */
 	/*
@@ -8533,7 +8601,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = MockXMLHttpRequest
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;
